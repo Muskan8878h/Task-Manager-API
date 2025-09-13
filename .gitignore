@@ -1,2 +1,12 @@
 node_modules
 .env
+
+
+PORT=  4000
+# MONGO_URI= mongodb+srv://muskan8878h:Muskan@cluster0.oqgn3so.mongodb.net/
+MONGO_URI=mongodb+srv://muskan8878h:Muskan@cluster0.oqgn3so.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=Muskankittu
+JWT_EXPIRES_IN=1h
+RATE_LIMIT_WINDOW_MS=900000  #15min
+RATE_LIMIT_MAX=100  #Maximum number of requests allowed per IP
+CORS_ORIGIN=http://localhost:3000  #which front-end domain can access your backend.
